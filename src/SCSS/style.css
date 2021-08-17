@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.login-page,
+.login-page .column-left,
+.login-page .column-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo_img {
+  width: 15rem;
+}
+
+@media (max-width: 700px) {
+  .logo_img {
+    width: 11rem;
+    display: block;
+    margin: auto;
+  }
+}
+
+.login-page {
+  height: 100vh;
+  background: white;
+  /* media queries */
+}
+
+@media (max-width: 700px) {
+  .login-page {
+    display: block;
+  }
+}
+
+.login-page .center-div {
+  width: 85rem;
+  height: 35rem;
+  background: #EDEBEB;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  /* media queries */
+}
+
+@media (max-width: 1260px) {
+  .login-page .center-div {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .login-page .center-div {
+    display: block;
+    width: 100vw;
+    border-radius: 0;
+    height: 100vh;
+  }
+}
+
+.login-page .column-left {
+  background: black;
+  width: 30%;
+}
+
+@media (max-width: 700px) {
+  .login-page .column-left {
+    display: block;
+    width: 100%;
+    height: 30vh;
+  }
+}
+
+.login-page .column-right {
+  background: #e6e6e6;
+  width: 70%;
+}
+
+@media (max-width: 700px) {
+  .login-page .column-right {
+    width: 100%;
+    height: 70vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .login-page .column-right {
+    background: white;
+  }
+}
+
+.login-page .form-wrapper {
+  width: 60%;
+  height: 70%;
+  background: white;
+  border-radius: 2rem;
+}
+
+@media (max-width: 500px) {
+  .login-page .form-wrapper {
+    width: 100%;
+  }
+}
+
+.login-page .form-wrapper h1 {
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+@media (max-width: 700px) {
+  .login-page .form-wrapper h1 {
+    margin: 1rem;
+  }
+}
+
+.login-page .form-wrapper div {
+  width: 15rem;
+  margin: auto;
+}
+
+.login-page .form-wrapper div h3 {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.664);
+}
+
+.login-page .form-wrapper div input[type="text"],
+.login-page .form-wrapper div input[type="password"] {
+  display: block;
+  margin: .5rem auto;
+  padding: .4rem 1rem;
+  width: 12rem;
+  border-radius: 3rem;
+  border: 2px black solid;
+}
+
+.login-page .form-wrapper div input:hover {
+  outline: none;
+}
+
+.login-page .form-wrapper div input:focus {
+  outline: none;
+}
+
+.login-page .form-wrapper div input[type="submit"]:hover {
+  background: rgba(0, 0, 0, 0.349);
+}
+
+.login-page .form-wrapper div input[type="submit"] {
+  float: right;
+  margin: 2rem .4rem;
+  border-radius: 3rem;
+  padding: .6rem 2.5rem;
+  border: none;
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+.Dashboard_wrapper {
+  background: #393E46;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.Dashboard_wrapper header {
+  background: #393E46;
+}
+
+.Dashboard_wrapper header h1 {
+  margin: 0;
+  padding: 1.5rem;
+  color: #00ADB5;
+}
+
+.Dashboard_wrapper .document_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.Dashboard_wrapper .document_wrapper .document {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#393E46));
+  background: linear-gradient(white, #393E46);
+  padding: 2rem;
+  margin: 1rem .5rem;
+  border-radius: .3rem;
+}
+
+.Dashboard_wrapper .document_wrapper .document a,
+.Dashboard_wrapper .document_wrapper .document button {
+  padding: .5rem 1rem;
+  text-decoration: none;
+  color: white;
+  border-radius: .3rem;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.Dashboard_wrapper .document_wrapper .document a:hover {
+  color: #00ADB5;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.Dashboard_wrapper .document_wrapper .document button:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.Dashboard_wrapper .document_wrapper .document img {
+  display: block;
+  margin: 0 0 1rem 0;
+  border-radius: .5rem;
+}
+
+.Dashboard_wrapper .document_wrapper .document h2 {
+  color: #393E46;
+}
+
+/*# sourceMappingURL=style.css.map */
