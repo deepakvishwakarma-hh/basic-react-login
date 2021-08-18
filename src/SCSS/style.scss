@@ -67,7 +67,7 @@ $pure-red:red;
 
     .column-right {
         @extend %centerDiv;
-        background: rgb(230, 230, 230);
+        background: rgb(255, 0, 0);
         width: 70%;
 
         @media (max-width: 700px) {
