@@ -1,0 +1,96 @@
+body {
+    height: 100vh;
+    background: #393E46;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.aside {
+    background: #000;
+    width: 5rem;
+}
+
+.aside ul {
+    list-style: none;
+}
+
+.aside ul li {
+    padding: 1.6rem;
+}
+
+.aside ul li button {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.main {
+    background: white;
+    width: calc(100vw - 5rem);
+}
+
+.main_wrapper {
+    padding: 1.5rem;
+}
+
+.main_wrapper header .searchbar {
+    border: 2px rgba(0, 0, 0, 0.582) solid;
+    display: inline-flex;
+    align-items: center;
+    border-radius: .3rem;
+    overflow: hidden;
+
+}
+
+.main_wrapper header .searchbar input {
+    width: 10rem;
+    border: none;
+    height: 2rem;
+}
+
+.main_wrapper header .searchbar button {
+    height: 2rem;
+    width: 3rem;
+    background: none;
+    border: none;
+}
+
+.main-wrapper_div_0 {
+    margin: 2.4rem 0 0 0;
+}
+
+.main-wrapper_div_2 {
+    margin: 2.4rem 0 0 0;
+}
+
+.dropdown {
+    display: inline-block;
+    background: rgba(0, 0, 255, 0.158);
+padding: .4rem;
+}
+
+.dropdown button {
+    background: none;
+    border: none;
+    padding: 0 0 .5rem 0;
+}
+
+.dropdown button svg {
+    margin: 0 1rem;
+}
+
+#showdiv {
+    font-size: .7rem;
+    padding: 1rem 1rem 1rem 1rem;
+    display: none;
+    border-top: 1px rgba(0, 0, 0, 0.048) solid ;
+}
